@@ -1,26 +1,24 @@
-const { createApp } = require("vue");
-import App from "./App.vue";
-import { Frontegg } from "@frontegg/vue";
-import { createRouter, createWebHistory } from "vue-router";
+import Vue from 'vue'
+import App from './App.vue'
+import VueRouter from 'vue-router'
+import { Frontegg } from '@frontegg/vue';
 
-const router = createRouter({
-  history: createWebHistory("/"),
-  routes: [{ name: "HomePage", path: "/", component: App }],
+Vue.use(VueRouter)
+const router = new VueRouter({
+  mode: 'history',
 });
 
-const app = createApp(App).use(router);
 
-app.use(Frontegg, {
+Vue.use(Frontegg, {
   contextOptions: {
-    baseUrl: "https://app-6gckxzmis0q5.frontegg.com",
-    clientId: "adefa070-cd3e-47ba-8d6d-43cb2484dcdb",
-    appId: "281e7e28-c2f6-42b2-86e5-90e90e0fde05",
-  },
-  authOptions: {
-    // keepSessionAlive: true // Uncomment this in order to maintain the session alive
+    baseUrl: 'https://samples-demo.frontegg.com',
+    clientId: '2e53360e-517e-4c38-a040-ba0e8639f2c7'
   },
   hostedLoginBox: true,
   router,
 });
 
-app.mount("#app");
+new Vue({
+  router,
+  render: h => h(App),
+}).$mount('#app')

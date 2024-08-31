@@ -1,28 +1,32 @@
 {
-  "name": "front-page",
+  "name": "vue-hosted-login-box",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Frontegg",
+    "email": "hello@frontegg.com",
+    "url": "https://frontegg.com"
+  },
+  "license": "MIT",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "start": "npm run serve",
+    "serve": "vue-cli-service serve --port 3000",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@frontegg/vue": "^4.0.3",
-    "core-js": "^3.8.3",
-    "vue": "^3.2.13",
-    "vue-router": "^4.4.3"
+    "@frontegg/vue": "1.0.21-alpha.2868476376",
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.2",
-    "@babel/eslint-parser": "^7.12.16",
-    "@babel/preset-env": "^7.25.4",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
-    "babel-loader": "^9.1.3",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
     "root": true,
@@ -30,18 +34,17 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/vue3-essential",
+      "plugin:vue/essential",
       "eslint:recommended"
     ],
     "parserOptions": {
-      "parser": "@babel/eslint-parser"
+      "parser": "babel-eslint"
     },
     "rules": {}
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
-    "not dead",
-    "not ie 11"
+    "not dead"
   ]
 }
