@@ -1,4 +1,4 @@
-import { createApp } from "vue";
+const { createApp } = require("vue");
 import App from "./App.vue";
 import { Frontegg } from "@frontegg/vue";
 import { createRouter, createWebHistory } from "vue-router";
