@@ -4,13 +4,13 @@ on:
     branches:
       - main
     paths:
-      - frontpage2/**
+      - front-page/**
       - frontstage_deploy(production).yaml
   pull_request:
     branches:
       - main
     paths:
-      - frontpage2/**
+      - front-page/**
   workflow_dispatch:
 
 jobs:
@@ -26,13 +26,13 @@ jobs:
           node-version: '18'  # Use a stable LTS version of Node.js
 
       - name: Install dependencies
-        working-directory: ./frontpage2
+        working-directory: ./front-page
         run: npm install 
 
       - name: Build
         env:
           NUXT_PUBLIC_API_BASE: ''
-        working-directory: ./frontpage2
+        working-directory: ./front-page
         run: npx nuxt generate
     
 
@@ -44,5 +44,5 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUD_FLARE_DEPLOY_API_TOKEN }}
           accountId: ${{ secrets.CLOUD_FLARE_DEPLOY_ACCOUNT_ID }}
-          command: pages deploy ./frontpage2/dist --project-name=btc-rise-calling --commit-dirty=true
+          command: pages deploy ./front-page/dist --project-name=btc-rise-calling --commit-dirty=true
           quiet: false
