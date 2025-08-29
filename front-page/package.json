@@ -15,8 +15,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@frontegg/vue": "1.0.21",
-    "core-js": "^3.45.0",
+    "@frontegg/vue": "1.0.22",
+    "core-js": "^3.43.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
