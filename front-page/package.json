@@ -64,6 +64,7 @@
     "proxy-addr": "^2.0.8",
     "sha.js": "^2.4.12",
     "node-forge": "^1.4.0",
-    "brace-expansion": "^1.1.21"
+    "brace-expansion": "^1.1.21",
+    "follow-redirects": "^1.16.0"
   }
 }
