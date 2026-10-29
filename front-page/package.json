@@ -85,6 +85,7 @@
     "tmp": "^0.2.6",
     "webpack-dev-middleware": "^7.4.6",
     "ws": "^6.2.4",
-    "@babel/plugin-transform-modules-systemjs": "^7.29.4"
+    "@babel/plugin-transform-modules-systemjs": "^7.29.4",
+    "ansi-regex": "^4.1.1"
   }
 }
