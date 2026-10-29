@@ -79,6 +79,7 @@
     "browserslist": "^4.28.7",
     "decode-uri-component": "^0.5.0",
     "flatted": "^3.4.2",
-    "ip": "^1.1.9"
+    "ip": "^1.1.9",
+    "picomatch": "^2.3.2"
   }
 }
