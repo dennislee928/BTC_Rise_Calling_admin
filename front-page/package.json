@@ -17,7 +17,7 @@
   "dependencies": {
     "@frontegg/vue": "1.0.22",
     "core-js": "^3.46.0",
-    "vue": "^2.6.11"
+    "vue": "^3.0.0-alpha.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
