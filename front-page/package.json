@@ -86,6 +86,7 @@
     "webpack-dev-middleware": "^7.4.6",
     "ws": "^6.2.4",
     "@babel/plugin-transform-modules-systemjs": "^7.29.4",
-    "ansi-regex": "^4.1.1"
+    "ansi-regex": "^4.1.1",
+    "async": "^2.6.4"
   }
 }
