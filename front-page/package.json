@@ -98,6 +98,7 @@
     "terser": "^4.8.1",
     "webpack-dev-server": "^5.2.6",
     "express": "^4.20.0",
-    "@babel/helpers": "^7.26.10"
+    "@babel/helpers": "^7.26.10",
+    "@babel/runtime": "^7.26.10"
   }
 }
