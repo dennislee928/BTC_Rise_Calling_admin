@@ -77,7 +77,7 @@
     "path-to-regexp": "^0.1.13",
     "svgo": "^2.8.4",
     "browserslist": "^4.28.7",
-    "decode-uri-component": "^0.5.0",
+    "decode-uri-component": "^0.5.1",
     "flatted": "^3.4.2",
     "ip": "^1.1.9",
     "picomatch": "^2.3.2",
