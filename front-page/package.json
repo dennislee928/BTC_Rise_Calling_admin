@@ -70,6 +70,7 @@
     "launch-editor": "^2.14.2",
     "postcss": "^8.5.23",
     "qs": "^6.16.1",
-    "http-proxy-middleware": "^2.0.10"
+    "http-proxy-middleware": "^2.0.10",
+    "minimatch": "^3.1.4"
   }
 }
