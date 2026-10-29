@@ -88,6 +88,7 @@
     "@babel/plugin-transform-modules-systemjs": "^7.29.4",
     "ansi-regex": "^4.1.1",
     "async": "^2.6.4",
-    "braces": "^3.0.3"
+    "braces": "^3.0.3",
+    "browserify-sign": "^4.2.2"
   }
 }
