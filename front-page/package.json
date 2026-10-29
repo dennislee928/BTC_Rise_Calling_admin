@@ -58,6 +58,7 @@
     "websocket-driver": "^0.7.5",
     "@babel/traverse": "^7.23.2",
     "cipher-base": "^1.0.5",
-    "eventsource": "^1.1.1"
+    "eventsource": "^1.1.1",
+    "json-schema": "^0.4.0"
   }
 }
