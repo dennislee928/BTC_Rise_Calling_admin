@@ -90,6 +90,7 @@
     "async": "^2.6.4",
     "braces": "^3.0.3",
     "browserify-sign": "^4.2.2",
-    "compression": "^1.8.2"
+    "compression": "^1.8.2",
+    "cross-spawn": "^7.0.5"
   }
 }
