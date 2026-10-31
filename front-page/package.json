@@ -63,7 +63,7 @@
     "minimist": "^1.2.6",
     "proxy-addr": "^2.0.8",
     "sha.js": "^2.4.12",
-    "node-forge": "^1.4.0",
+    "node-forge": "^1.4.1",
     "brace-expansion": "^1.1.21",
     "follow-redirects": "^1.16.0",
     "js-yaml": "^3.15.2",
